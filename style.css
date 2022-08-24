@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    
+}
+
+/* Header ======== */
+
+.header {
+    width: 100%;
+    height: 85px;
+    padding: 25px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav ======== */
+
+.nav {
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+}
+
+.nav__link {
+    color: aliceblue;
+    text-decoration: none;
+    opacity: 0.75;
+    margin-left: 20px;
+
+    transition: opacity .1s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0px;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+/* Intro ======== */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 85px;
+
+    background: url("img/Seward-Highway.jpeg") no-repeat center / cover;
+}
+
+.intro__title {
+    margin: 0;
+    font-family: "Open Sans" sans-serif;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.intro__subtitle {
+    margin: 0 0 30px;
+    font-family: "Open Sans" sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.intro_paragraf {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Button ======== */
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    border: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    text-transform: uppercase;
+    background-color: #42556A;
+    text-decoration: none;
+    padding: 14px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color:#324254
+}
